@@ -30,6 +30,8 @@ public class CartPage {
 	By purchaseSuccessDialog = By.xpath("//div[@class='sweet-alert  showSweetAlert visible']/h2");
 	By purchaseSucessOkBtn = By.xpath(
 			"//div[@class='sweet-alert  showSweetAlert visible']/div/div[@class='sa-confirm-button-container']/button[text()='OK']");
+	By purchaseSucessOkBtn = By.xpath(
+			"//div[@class='sweet-alert  showSweetAlert visible']/div/div[@class='sa-confirm-button-container']/button[text()='OK']");
 
 	// 2. Page Class Constructor
 	public CartPage(WebDriver driver) {
